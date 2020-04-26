@@ -59,7 +59,6 @@ class AddPhotoActivity : AppCompatActivity() {
 
         var timestamp = SimpleDateFormat("yyyyMMdd_HHmmss").format(Date())
         var imageFileName = "IMAGE_" + timestamp + "_.png"
-
         var storageRef = storage?.reference?.child("images")?.child(imageFileName)
 
         //promise method
